@@ -1,0 +1,25 @@
+@import url(./header.css);
+@import url(./setting.css);
+@import url(./story.css);
+@import url(./slider.css);
+@import url(./category.css);
+@import url(./offer.css);
+@import url(./category-image.css);
+@import url(./market-post.css);
+@import url(./category-image2.css);
+@import url(./product-category.css);
+@import url(./post-1.css);
+@import url(./brand-slide.css);
+@import url(./post-2.css);
+@import url(./kala.css);
+@import url(./best-sellers.css);
+@import url(./kala-2.css);
+@import url(./chosen.css);
+@import url(./recent.css);
+@import url(./read.css);
+
+@import url(./s-header.css);
+@import url(./footer.css);
+*{
+    scroll-behavior: smooth;
+}

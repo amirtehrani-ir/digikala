@@ -1,0 +1,151 @@
+.product-3{
+    width: 100%;
+    height: 465px;
+   
+    .product-3-center{
+        max-width: 1336px;
+        height: 100%;
+      
+        margin: 0 auto;
+        margin-top: 25px;
+        border: 1px solid gray;
+        border-radius: 10px ;
+
+        .populars{
+           h2{
+            font-family: var(--font-family);
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 50px;
+            margin-right: 10px;
+
+            
+          
+           }
+
+         }
+         
+    }
+}
+.product-3 .product-3-center .swiper {
+      width: 100%;
+      height: 80%
+   
+    }
+
+.product-3 .product-3-center .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 5px ;
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+.product-3 .product-3-center  .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+     
+    }
+.product-3 .product-3-center .swiper-brand{
+    width: 100%;
+    height: 100%;
+    
+    border-left: 0.2px solid rgb(241, 238, 238);
+      
+
+    
+
+    
+  p{
+        font-family: var(--font-family);
+        font-size: 13px ;
+        display: -webkit-box;
+        -webkit-box-orient:vertical;
+        box-orient: vertical;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        overflow: hidden;
+        text-align: right;
+        margin: 10px;
+        color: darkgray;
+        margin-bottom: 30px;
+
+
+    }
+
+  
+
+   
+ 
+ .price {
+        width: 100%;
+       
+        display: flex;
+        flex-direction: row-reverse;
+      
+        align-items: center;
+        font-family: var(--font-family);
+        font-size: 16px;
+        color: #2b2b2b;
+       
+        padding: 3px ;
+       
+        
+
+        .discount{
+            background-color: #D32F2F;
+            width: 44px;
+            height: 18px;
+            border-radius: 10px;
+            align-items: center;
+            font-size: 11px;
+            margin-right: 5px ;
+            font-family: var(--font-family);
+            font-size: 12px;
+            font-weight: normal;
+            color: white;
+
+            
+        }
+        
+    }
+    .old-price{
+            
+        font-family: var(--font-family);
+        font-size: 13px;
+        color: darkgray;
+        text-align: left;
+        margin-left: 15px ;
+        text-decoration: line-through;
+            
+
+
+        }
+    
+      
+  img{
+    width: 150px ;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+
+
+   
+ 
+
+  }
+
+ }
+ .blank{
+    width: 100%;
+    height: 1000px;
+    background-color: beige;
+ }
+  

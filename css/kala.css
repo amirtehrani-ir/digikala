@@ -1,0 +1,82 @@
+.kala{
+    width: 100%;
+    height: 420px;
+   
+   
+
+    
+    .kala-center{
+             width: 1340px;
+             height: 100%;
+       
+             margin: 0 auto;
+            border: 1px solid grey;
+            border-radius: 16px;
+            column-gap:1.5px ;
+            display: flex;
+            overflow: hidden;
+            
+            .kala-center-item{
+                width: 24.9%;
+                height: 100% ;
+                
+                
+
+                .kala-center-item-header{
+                    font-family: var(--font-family);
+                    font-size: 16px;
+                    padding: 15px;
+                }
+                 .kala-center-item-body{
+                    display: flex;
+                    flex-flow: row wrap;
+                    margin-bottom: 25px ;
+                    .border-left{
+                            border-left: 1px solid rgb(235, 234, 234);
+                         }
+                         .border-bottom{
+                            border-bottom: 1px solid rgb(235, 234, 234);
+                         }
+                       
+                     
+                    .image{
+                        width: 45%;
+                        margin: 0 auto;
+                        justify-content: center;
+                      
+                       margin: 0;
+
+
+                         
+                        
+                       
+
+
+                        img{
+                            width: 132px;
+                            height: 132px;
+                            display: block;
+                            margin: 0 auto;
+
+
+                        }
+
+                    }
+
+                 }
+                 .link-bottom{
+                    font-family: var(--font-family);
+                     font-size: 16px;
+                     text-align: center;
+                     align-items: center;
+                     a{
+                        text-decoration: none;
+                     }
+
+
+                 }
+
+            }  
+
+    }
+}
